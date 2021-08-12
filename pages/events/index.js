@@ -1,13 +1,10 @@
-import {useEffect} from 'react'
 import Layout from '@/components/Layout'
 import Eventitem from '@/components/Eventitem'
 import { API_URL, PER_PAGE } from '@/config/index'
 import Pagination from '@/components/Pagination'
 
 export default function EventsPage({events, page, total}) {
-  useEffect(() => {
- 
-  }, [events])
+  
   return (
     <Layout>
         <h1>Upcoming Events</h1>
