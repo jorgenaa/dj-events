@@ -23,6 +23,7 @@ export default function EventPage({ evt }) {
           <div className={styles.image}>
             <Image
               src={evt.image.formats.medium.url}
+              alt='Event'
               width={960}
               height={600}
             />

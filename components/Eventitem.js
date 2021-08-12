@@ -8,6 +8,7 @@ export default function Eventitem({evt}) {
             <div className={styles.img}>
                 <Image 
                     src={evt.image ? evt.image.formats.thumbnail.url : '/images/event-default.png'} 
+                    alt='Event'
                     width={170} 
                     height={100} 
                 />
